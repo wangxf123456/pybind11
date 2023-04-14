@@ -38,7 +38,7 @@ def test_temporary_holder():
         (m.return_value, "value(_MvCtor)*_MvCtor"),
         (m.return_pointer, "pointer"),
         (m.return_const_pointer, "const_pointer_CpCtor"),
-        (m.return_reference, "reference_MvCtor"),
+        (m.return_reference, "reference_CpCtor"),
         (m.return_const_reference, "const_reference_CpCtor"),
         (m.return_unique_pointer, "unique_pointer"),
         (m.return_shared_pointer, "shared_pointer"),
